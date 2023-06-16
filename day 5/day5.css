@@ -1,0 +1,40 @@
+
+/* Type Selctor */
+body{
+    color:gold;
+    background-color: rgb(225, 225, 236);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class Selector */
+.first{
+    color: black;
+}
+.large{
+    font-size: 30px;
+}
+
+/* ID Selector */
+#eklist{
+    background-color: brown;
+}
+/* Attribute Selector */
+a[href="http://google.com"]{
+    color: pink;
+}
+input[type="email"]{
+    color: black;
+}
+input[type="text"]{
+   color: blue;
+}]
+
+/* Pseudo Selector */
+.first:hover{
+    color: brown;
+}
+
+/* Universal Selector */
+*{
+    margin: 5%;
+}
